@@ -99,7 +99,7 @@
   },
   "dashboard": {
     "title": "Dashboard",
-    "subtitle": "Welcome to CLI Proxy API Management Center",
+    "subtitle": "Welcome to LumeAi.ru",
     "openai_providers": "OpenAI Providers",
     "quick_actions": "Quick Actions",
     "current_config": "Current Configuration",

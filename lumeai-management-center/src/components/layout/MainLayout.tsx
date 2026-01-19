@@ -209,7 +209,7 @@ export function MainLayout() {
   const versionTapCount = useRef(0);
   const versionTapTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const fullBrandName = 'CLI Proxy API Management Center';
+  const fullBrandName = 'LumeAi.ru';
   const abbrBrandName = t('title.abbr');
   const requestLogEnabled = config?.requestLog ?? false;
   const requestLogDirty = requestLogDraft !== requestLogEnabled;
