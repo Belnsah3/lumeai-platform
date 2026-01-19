@@ -199,7 +199,7 @@ export function SystemPage() {
           </a>
 
           <a
-            href="https://help.router-for.me/"
+            href="https://github.com/Belnsah3/lumeai-platform/tree/main/docs"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.linkCard}
