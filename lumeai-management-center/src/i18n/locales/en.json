@@ -329,7 +329,7 @@
   "auth_files": {
     "title": "Auth Files Management",
     "title_section": "Auth Files",
-    "description": "Manage all CLI Proxy JSON auth files here (e.g. Qwen, Gemini, Vertex). Uploading a credential immediately enables the corresponding AI integration.",
+    "description": "Manage all LumeAi auth files here (e.g. Qwen, Gemini, Vertex). Uploading a credential immediately enables the corresponding AI integration.",
     "upload_button": "Upload File",
     "delete_all_button": "Delete All",
     "empty_title": "No Auth Files",
@@ -393,7 +393,7 @@
     "models_empty": "No available models for this credential",
     "models_empty_desc": "This credential may not be loaded by the server yet, or no models are bound to it.",
     "models_unsupported": "This feature is not supported in the current version",
-    "models_unsupported_desc": "Please update CLI Proxy API to the latest version and try again",
+    "models_unsupported_desc": "Please update LumeAi Platform to the latest version and try again",
     "models_excluded_badge": "Excluded",
     "models_excluded_hint": "This model is excluded by OAuth"
   },
@@ -496,9 +496,9 @@
     "provider_required": "Please enter a provider first",
     "scope_all": "Scope: All providers",
     "scope_provider": "Scope: {{provider}}",
-    "upgrade_required": "This feature requires a newer CLI Proxy API (CPA) version. Please upgrade.",
-    "upgrade_required_title": "Please upgrade CLI Proxy API",
-    "upgrade_required_desc": "The current server does not support the OAuth excluded models API. Please upgrade to the latest CLI Proxy API (CPA) version."
+    "upgrade_required": "This feature requires a newer LumeAi Platform version. Please upgrade.",
+    "upgrade_required_title": "Please upgrade LumeAi Platform",
+    "upgrade_required_desc": "The current server does not support the OAuth excluded models API. Please upgrade to the latest LumeAi Platform version."
   },
   "oauth_model_mappings": {
     "title": "OAuth Model Mappings",
@@ -524,9 +524,9 @@
     "model_count": "{{count}} mappings",
     "list_empty_all": "No model mappings yet—use “Add Mapping” to create one.",
     "provider_required": "Please enter a provider first",
-    "upgrade_required": "This feature requires a newer CLI Proxy API (CPA) version. Please upgrade.",
-    "upgrade_required_title": "Please upgrade CLI Proxy API",
-    "upgrade_required_desc": "The current server does not support the OAuth model mappings API. Please upgrade to the latest CLI Proxy API (CPA) version."
+    "upgrade_required": "This feature requires a newer LumeAi Platform version. Please upgrade.",
+    "upgrade_required_title": "Please upgrade LumeAi Platform",
+    "upgrade_required_desc": "The current server does not support the OAuth model mappings API. Please upgrade to the latest LumeAi Platform version."
   },
   "auth_login": {
     "codex_oauth_title": "Codex OAuth",
@@ -595,7 +595,7 @@
     "oauth_callback_required": "Please paste the full redirect URL first.",
     "oauth_callback_success": "Callback URL submitted. Continue waiting for authentication.",
     "oauth_callback_error": "Failed to submit callback URL:",
-    "oauth_callback_upgrade_hint": "Please update CLI Proxy API or check the connection.",
+    "oauth_callback_upgrade_hint": "Please update LumeAi Platform or check the connection.",
     "oauth_callback_status_success": "Callback URL submitted, waiting for authentication...",
     "oauth_callback_status_error": "Callback URL submission failed:",
     "missing_state": "Unable to retrieve authentication state parameter",
@@ -743,8 +743,8 @@
     "copy_failed": "Copy failed",
     "lines": "lines",
     "removed": "Filtered",
-    "upgrade_required_title": "Please Upgrade CLI Proxy API",
-    "upgrade_required_desc": "The current server version does not support the logs viewing feature. Please upgrade to the latest version of CLI Proxy API to use this feature."
+    "upgrade_required_title": "Please Upgrade LumeAi Platform",
+    "upgrade_required_desc": "The current server version does not support the logs viewing feature. Please upgrade to the latest version of LumeAi Platform to use this feature."
   },
   "config_management": {
     "title": "Config Management",
@@ -902,7 +902,7 @@
     "toggle_collapse": "Collapse sidebar"
   },
   "footer": {
-    "api_version": "CLI Proxy API Version",
+    "api_version": "LumeAi Core Version",
     "build_date": "Build Time",
     "version": "Management UI Version",
     "author": "Author"
