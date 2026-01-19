@@ -163,7 +163,7 @@ export function SystemPage() {
         <p className={styles.sectionDescription}>{t('system_info.quick_links_desc')}</p>
         <div className={styles.quickLinks}>
           <a
-            href="https://lumeai.ru"
+            href="https://github.com/Belnsah3/lumeai-platform"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.linkCard}
@@ -181,7 +181,7 @@ export function SystemPage() {
           </a>
 
           <a
-            href="https://github.com/router-for-me/Cli-Proxy-API-Management-Center"
+            href="https://github.com/Belnsah3/lumeai-platform/tree/main/lumeai-management-center"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.linkCard}
