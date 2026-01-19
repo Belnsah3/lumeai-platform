@@ -1,0 +1,37 @@
+[Unit]
+Description=LumeAi Platform - Advanced AI Proxy
+Documentation=https://github.com/Belnsah3/lumeai-platform
+After=network.target network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=be1lnash3
+Group=be1lnash3
+WorkingDirectory=/home/be1lnash3/CLIProxyAPIPlus_6.6.103-0_linux_amd64
+ExecStart=/home/be1lnash3/CLIProxyAPIPlus_6.6.103-0_linux_amd64/lumeai-core
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=lumeai
+
+# Environment
+Environment=HOME=/home/be1lnash3
+Environment=MANAGEMENT_STATIC_PATH=/home/be1lnash3/CLIProxyAPIPlus_6.6.103-0_linux_amd64/static
+
+# Security hardening
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/be1lnash3/CLIProxyAPIPlus_6.6.103-0_linux_amd64/logs
+ReadWritePaths=/home/be1lnash3/CLIProxyAPIPlus_6.6.103-0_linux_amd64/auths
+ReadWritePaths=/home/be1lnash3/CLIProxyAPIPlus_6.6.103-0_linux_amd64/static
+
+# Resource limits
+LimitNOFILE=65535
+LimitNPROC=4096
+
+[Install]
+WantedBy=multi-user.target

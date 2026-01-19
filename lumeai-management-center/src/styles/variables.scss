@@ -1,0 +1,62 @@
+/**
+ * SCSS 变量定义
+ */
+
+// 颜色 (Purple - iOS Style)
+$primary-color: #BF5AF2; 
+$success-color: #34C759;
+$warning-color: #FF9F0A;
+$error-color: #FF453A;
+$info-color: #5E5CE6;
+
+// 灰阶 (Glass tones)
+$gray-50: rgba(255, 255, 255, 0.05);
+$gray-100: rgba(255, 255, 255, 0.1);
+$gray-200: rgba(255, 255, 255, 0.15);
+$gray-300: rgba(255, 255, 255, 0.2);
+$gray-400: #8E8E93;
+$gray-500: #636366;
+$gray-600: #48484A;
+$gray-700: #3A3A3C;
+$gray-800: #2C2C2E;
+$gray-900: #1C1C1E;
+
+// 间距
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-2xl: 48px;
+
+// 圆角 (iOS Rounded)
+$radius-sm: 8px;
+$radius-md: 14px;
+$radius-lg: 20px;
+$radius-full: 9999px;
+
+// 阴影 (Soft glows)
+$shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+$shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.12);
+
+// 过渡
+$transition-fast: 150ms ease;
+$transition-normal: 300ms ease;
+$transition-slow: 500ms ease;
+
+// 断点
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1024px;
+$breakpoint-desktop: 1280px;
+
+// Z-index
+$z-dropdown: 1000;
+$z-modal: 2000;
+$z-notification: 3000;
+
+// 字体
+$font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+  'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+$font-mono: 'Courier New', Courier, monospace;

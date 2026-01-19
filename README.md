@@ -20,10 +20,10 @@ LumeAi.ru - Advanced AI Proxy & Management Platform.
 ## Development
 
 ### Frontend
-located in `Cli-Proxy-API-Management-Center-1.2.18/`
+located in `lumeai-management-center/`
 
 ```bash
-cd Cli-Proxy-API-Management-Center-1.2.18
+cd lumeai-management-center
 npm install
 npm run dev
 ```
