@@ -1,0 +1,98 @@
+**GPT** (3)
+`gpt-oss-20b`
+`gpt-oss-120b`
+`gpt-oss-120b-medium`
+
+**Anthropic** (3)
+`claude-sonnet-4-5`
+`claude-sonnet-4-5-thinking`
+`claude-opus-4-5-thinking`
+
+**Google** (13)
+`gemini-2.0-flash-exp`
+`gemini-2.5-flash`
+`gemini-2.5-flash-lite`
+`gemini-2.5-computer-use-preview-10-2025`
+`gemini-3-flash-preview`
+`gemini-3-pro-preview`
+`gemini-3-pro-image-preview`
+`gemma-3-4b`
+`gemma-3-12b`
+`gemma-3-27b`
+`gemma-3n-e2b`
+`gemma-3n-e4b`
+`tab_flash_lite_preview`
+
+**Llama** (2)
+`llama-3.1-405b`
+`llama-3.3-70b`
+
+**Kimi** (3)
+`kimi-k2`
+`kimi-k2-0905`
+`kimi-k2-thinking`
+
+**Qwen** (12)
+`qwen-2.5-vl-7b`
+`qwen3-32b`
+`qwen3-235b`
+`qwen3-235b-a22b-instruct`
+`qwen3-235b-a22b-thinking-2507`
+`qwen3-coder`
+`qwen3-coder-flash`
+`qwen3-coder-plus`
+`qwen3-max`
+`qwen3-max-preview`
+`qwen3-vl-plus`
+`vision-model`
+
+**GLM** (3)
+`glm-4.5-air`
+`glm-4.6`
+`glm-4.7`
+
+**DeepSeek** (9)
+`deepseek-r1`
+`deepseek-r1-0528`
+`deepseek-r1t-chimera`
+`deepseek-r1t2-chimera`
+`deepseek-v3`
+`deepseek-v3.1`
+`deepseek-v3.2`
+`deepseek-v3.2-chat`
+`deepseek-v3.2-reasoner`
+
+**Minimax** (2)
+`minimax-m2`
+`minimax-m2.1`
+
+**Mistral** (2)
+`devstral`
+`mistral-7b`
+
+**NVIDIA** (4)
+`nemotron-3-nano-30b`
+`nemotron-3-nano-30b-paid`
+`nemotron-nano-9b`
+`nemotron-nano-12b-vl`
+
+**TStars** (1)
+`tstars2.0`
+
+**OpenRouter** (1)
+`bodybuilder`
+
+**TNG Tech** (1)
+`tng-r1t-chimera`
+
+**Xiaomi** (1)
+`mimo-v2-flash`
+
+**Arcee AI** (1)
+`trinity-mini`
+
+**AllenAI** (1)
+`molmo-2-8b`
+
+---
+Всего: 62 модели от 15 провайдеров

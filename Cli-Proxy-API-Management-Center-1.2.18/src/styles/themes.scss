@@ -1,0 +1,81 @@
+/**
+ * 主题样式 - Purple / Glassmorphism / iOS Style
+ */
+
+// 浅色主题
+:root {
+  --bg-primary: #f2f2f7; // iOS System Gray 6
+  --bg-secondary: rgba(255, 255, 255, 0.75); // Glassy white
+  --bg-tertiary: #ffffff;
+
+  --text-primary: #000000;
+  --text-secondary: #3c3c43;
+  --text-tertiary: #3c3c43;
+
+  --border-color: rgba(60, 60, 67, 0.29);
+  --border-hover: rgba(60, 60, 67, 0.36);
+
+  --primary-color: #AF52DE; // iOS Purple
+  --primary-hover: #BF5AF2;
+  --primary-active: #8944AB;
+
+  --success-color: #34C759;
+  --warning-color: #FF9F0A;
+  --error-color: #FF453A;
+  --info-color: #5856D6;
+
+  --success-badge-bg: rgba(52, 199, 89, 0.15);
+  --success-badge-text: #248a3d;
+  --success-badge-border: rgba(52, 199, 89, 0.3);
+
+  --failure-badge-bg: rgba(255, 69, 58, 0.15);
+  --failure-badge-text: #d70015;
+  --failure-badge-border: rgba(255, 69, 58, 0.3);
+
+  --count-badge-bg: rgba(175, 82, 222, 0.15);
+  --count-badge-text: var(--primary-color);
+
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+  
+  --backdrop-filter: blur(20px) saturate(180%);
+}
+
+// 深色主题
+[data-theme='dark'] {
+  --bg-primary: #000000; 
+  --bg-secondary: rgba(28, 28, 30, 0.65); // iOS System Gray 6 Dark (Glass)
+  --bg-tertiary: #1c1c1e;
+
+  --text-primary: #ffffff;
+  --text-secondary: #ebebf5;
+  --text-tertiary: #ebebf5;
+
+  --border-color: rgba(84, 84, 88, 0.50);
+  --border-hover: rgba(84, 84, 88, 0.65);
+
+  --primary-color: #BF5AF2;
+  --primary-hover: #D488F7;
+  --primary-active: #AF52DE;
+
+  --success-color: #30D158;
+  --warning-color: #FF9F0A;
+  --error-color: #FF453A;
+  --info-color: #5E5CE6;
+
+  --success-badge-bg: rgba(48, 209, 88, 0.2);
+  --success-badge-text: #6ee7b7;
+  --success-badge-border: rgba(48, 209, 88, 0.3);
+
+  --failure-badge-bg: rgba(255, 69, 58, 0.2);
+  --failure-badge-text: #ff9ca3;
+  --failure-badge-border: rgba(255, 69, 58, 0.3);
+
+  --count-badge-bg: rgba(191, 90, 242, 0.25);
+  --count-badge-text: var(--primary-color);
+
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.15);
+
+  --backdrop-filter: blur(20px) saturate(180%);
+}

@@ -1,0 +1,22 @@
+# System
+logs/
+*.log
+.DS_Store
+auths/
+config.yaml
+.env
+
+# Build Artifacts
+dist/
+build/
+node_modules/
+.vscode/
+
+# Binaries
+cli-proxy-api-plus
+*.exe
+*.dll
+*.so
+
+# Duplicate/Original Folders
+CLIProxyAPIPlus_6.6.103-0_linux_amd64/
