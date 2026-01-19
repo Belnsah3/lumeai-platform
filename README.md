@@ -17,7 +17,17 @@ LumeAi.ru - Advanced AI Proxy & Management Platform.
    ```
 3. Access the dashboard at `https://panel.lumeai.ru`.
 
+## Documentation
+
+Complete documentation is available in the [docs/](docs/README.md) directory.
+
+- [Configuration](docs/CONFIGURATION.md)
+- [Deployment](docs/DEPLOYMENT.md)
+- [Management API](docs/MANAGEMENT_API.md)
+- [Web UI](docs/WEBUI.md)
+
 ## Development
+
 
 ### Frontend
 located in `lumeai-management-center/`
